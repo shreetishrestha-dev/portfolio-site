@@ -1,4 +1,5 @@
 import { AboutSection } from "@/components/about";
+import { BackToTop } from "@/components/back-to-top";
 import { ContactSection } from "@/components/contact";
 import { CursorGlow } from "@/components/cursor-glow";
 import { ExperienceSection } from "@/components/experience";
@@ -15,6 +16,7 @@ export default function Home() {
     <main className="relative min-h-screen overflow-x-clip bg-[var(--background)] text-[var(--foreground)]">
       <CursorGlow />
       <ScrollProgress />
+      <BackToTop />
       <Navbar />
       <HeroSection />
       <AboutSection />

@@ -6,6 +6,7 @@ import { ArrowRight, Download, Github, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { portfolio } from "@/lib/portfolio-data";
+import { withBasePath } from "@/lib/site";
 import { MagneticButton } from "./motion/magnetic-button";
 import { Reveal } from "./motion/reveal";
 
@@ -81,7 +82,7 @@ export function HeroSection() {
                       transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
                     />
                     <Image
-                      src="/images/hero-wave.gif"
+                      src={withBasePath("/images/hero-wave.gif")}
                       alt="Animated waving avatar"
                       width={180}
                       height={180}
@@ -108,7 +109,7 @@ export function HeroSection() {
                   <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </MagneticButton>
                 <MagneticButton
-                  href="/cv/shreeti-shrestha-cv-2025.pdf"
+                  href={withBasePath("/cv/shreeti-shrestha-cv-2025.pdf")}
                   className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-[var(--border)] bg-[var(--surface-strong)] px-5 py-3.5 text-sm font-semibold text-[var(--foreground)] sm:w-auto sm:px-6"
                   target="_blank"
                 >

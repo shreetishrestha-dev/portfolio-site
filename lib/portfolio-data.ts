@@ -171,6 +171,62 @@ export const portfolio = {
       outcome: "Brought together multiple content formats, location-based storytelling, and dashboard-style management into one cohesive interactive experience.",
     },
   ],
+  mediaCoverage: [
+    {
+      source: "The Kathmandu Post",
+      title: "The women who are changing the face of tech in Nepal",
+      type: "Feature",
+      href: "https://kathmandupost.com/science-technology/2021/01/03/the-women-who-are-changing-the-face-of-tech-in-nepa",
+    },
+    {
+      source: "OnlineKhabar",
+      title: "Setting an example to promote women in science and technology in Nepal",
+      type: "Profile",
+      href: "https://english.onlinekhabar.com/shreeti-shrestha-women-science-nepal.html",
+    },
+    {
+      source: "Business 360",
+      title: "Are There Gender Roadblocks For Women In Tech?",
+      type: "Opinion",
+      href: "https://www.b360nepal.com/detail/7320/are-there-gender-roadblocks-for-women-in-tech",
+    },
+    {
+      source: "UN Women Nepal",
+      title: "Advancing Digital Equality for Economic Empowerment of Women with Disabilities",
+      type: "Panelist",
+      href: "https://www.facebook.com/273244929793241/posts/1605720819878972/?sfnsn=mo&mibextid=RUbZ1f",
+    },
+    {
+      source: "Nepali Women in Computing",
+      title: "Community feature and representation in women-in-tech spaces",
+      type: "Appearances",
+      href: "https://medium.com/nepali-women-in-computing/what-is-life-a-journey-of-hope-e844af10a730",
+    },
+    {
+      source: "Boju Bajai Podcast",
+      title: "Podcast conversation on women, technology, and lived experience",
+      type: "Appearances",
+      href: "https://bojubajai.org/episodes/%E0%A4%85%E0%A4%B8%E0%A4%AE%E0%A4%BE%E0%A4%B5%E0%A5%87%E0%A4%B6%E0%A5%80-%E0%A4%B8%E0%A4%AE%E0%A5%83%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF-ep-2-interrupting-spaces/",
+    },
+    {
+      source: "Ncell Dreamers and Doers",
+      title: "Featured platform appearance",
+      type: "Appearances",
+      href: "https://www.instagram.com/tv/CatVSwIjByk/",
+    },
+    {
+      source: "Finland in Nepal",
+      title: "Embassy platform feature",
+      type: "Appearances",
+      href: "https://twitter.com/finlandinnepal/status/1633336508278251521",
+    },
+    {
+      source: "Plan International",
+      title: "Featured conversation on women, leadership, and digital inclusion",
+      type: "Appearances",
+      href: "https://www.linkedin.com/feed/update/urn:li:activity:7030913596096212992/",
+    },
+  ],
   education: [
     {
       title: "Bachelor in Computer Engineering",

@@ -17,8 +17,8 @@
   --accent-tertiary: #f3acb7;
   --grid: rgba(120, 154, 146, 0.12);
   --hero-overlay:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.72), transparent 38%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.52), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
 }
 
 .dark {
@@ -37,8 +37,8 @@
   --accent-tertiary: #f0a7b9;
   --grid: rgba(122, 159, 150, 0.16);
   --hero-overlay:
-    radial-gradient(circle at top left, rgba(130, 240, 141, 0.08), transparent 34%),
-    linear-gradient(180deg, rgba(4, 10, 20, 0.08), rgba(4, 10, 20, 0.34));
+    radial-gradient(circle at top left, rgba(130, 240, 141, 0.05), transparent 30%),
+    linear-gradient(180deg, rgba(4, 10, 20, 0.02), rgba(4, 10, 20, 0.16));
 }
 
 * {
@@ -129,6 +129,13 @@ textarea {
 
 .hero-overlay {
   background: var(--hero-overlay);
+}
+
+.hero-scene {
+  mix-blend-mode: screen;
+  opacity: 0.92;
+  filter: saturate(1.12);
+  mask-image: radial-gradient(circle at center, black 18%, black 66%, transparent 100%);
 }
 
 .hero-avatar {

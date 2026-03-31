@@ -4,6 +4,7 @@ import { CursorGlow } from "@/components/cursor-glow";
 import { ExperienceSection } from "@/components/experience";
 import { Footer } from "@/components/footer";
 import { HeroSection } from "@/components/hero";
+import { MediaCoverageSection } from "@/components/media-coverage";
 import { Navbar } from "@/components/navbar";
 import { ProjectsSection } from "@/components/projects";
 import { ScrollProgress } from "@/components/scroll-progress";
@@ -20,6 +21,7 @@ export default function Home() {
       <SkillsSection />
       <ExperienceSection />
       <ProjectsSection />
+      <MediaCoverageSection />
       <ContactSection />
       <Footer />
     </main>

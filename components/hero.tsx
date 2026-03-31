@@ -33,7 +33,7 @@ export function HeroSection() {
     >
       <div className="section-shell relative overflow-hidden rounded-[1.75rem] border border-[var(--border)] bg-[var(--background-soft)] px-4 py-8 shadow-[var(--shadow)] sm:rounded-[2rem] sm:px-6 sm:py-12 md:px-10 md:py-16 lg:px-14 lg:py-20">
         <div className="noise" />
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 z-0">
           <motion.div
             className="absolute inset-0 bg-[radial-gradient(circle_at_18%_24%,rgba(117,234,132,0.18),transparent_22%),radial-gradient(circle_at_76%_18%,rgba(139,100,255,0.18),transparent_26%)]"
             animate={{ scale: [1, 1.04, 1], opacity: [0.8, 1, 0.82] }}
@@ -58,7 +58,7 @@ export function HeroSection() {
           <div className="hero-overlay absolute inset-0" />
         </div>
 
-        <div className="relative grid items-end gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-10">
+        <div className="relative z-10 grid items-end gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-10">
           <div className="max-w-3xl">
             <Reveal>
               <span className="inline-flex max-w-full rounded-full border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--muted)] sm:px-4 sm:text-xs sm:tracking-[0.24em]">

@@ -12,6 +12,7 @@ export const portfolio = {
     github: "https://github.com/shreetishrestha-dev",
     linkedin: "https://www.linkedin.com/in/shreetishrestha/",
     website: "https://thetrops.com/",
+    blog: "https://shreetishrestha-dev.github.io/shreeti-blog/",
   },
   stats: [
     { value: "7+", label: "Years building production software" },
@@ -128,15 +129,6 @@ export const portfolio = {
       stack: ["TypeScript", "AWS", "Cloud Security", "Risk Detection"],
       href: "https://www.plerion.com/platform/cloud-security-posture-management",
       outcome: "Expanded cloud risk coverage by contributing new provider detections and security-focused platform capabilities.",
-    },
-    {
-      title: "Siri's Diary",
-      description:
-        "An artistic personal blog and digital diary built as an expressive space for poems, photography, articles, and curated Instagram fragments, with animated ambient visuals and a tactile scrapbook feel.",
-      stack: ["Next.js", "Tailwind CSS", "Framer Motion", "React Three Fiber", "GitHub Pages"],
-      href: "https://shreetishrestha-dev.github.io/shreeti-blog/",
-      secondaryHref: "https://github.com/shreetishrestha-dev/shreeti-blog",
-      outcome: "Created a living creative journal that blends content pipelines, motion design, and responsive storytelling into a personal web experience.",
     },
   ],
   githubProjects: [

@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import { ArrowRight, Download, Github, Linkedin } from "lucide-react";
+import { ArrowRight, BookOpenText, Download, Github, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { portfolio } from "@/lib/portfolio-data";
@@ -138,6 +138,15 @@ export function HeroSection() {
                 >
                   <Github className="h-4 w-4" />
                   GitHub
+                </a>
+                <a
+                  href={portfolio.socials.blog}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="glass-panel inline-flex items-center gap-2 rounded-full px-3.5 py-2 sm:px-4"
+                >
+                  <BookOpenText className="h-4 w-4" />
+                  Blog
                 </a>
                 <span className="rounded-full border border-[var(--border)] px-3.5 py-2 sm:px-4">{portfolio.location}</span>
               </div>
